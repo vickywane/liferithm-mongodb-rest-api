@@ -1,0 +1,16 @@
+{
+  "name": "liferythm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }, 
+  "scripts" : {
+    "start" : "nodemon index.js"
+  }
+}
