@@ -27,7 +27,7 @@ app.post("/create-activity", async (req, res) => {
     id: id,
     title: title,
     description: description,
-    date: Date(),
+    date: Date(),Using `Yarn` , run ` Yarn Start ` to start server on default port **5050**.
     isCompleted: isCompleted,
     time: time,
   });
